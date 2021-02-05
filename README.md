@@ -7,3 +7,7 @@
 * # Question 2: #<br>
  `Reverse a given number .
   Eg. If user has entered Number 1236 it should print 6321`
+
+* # Question 3: #<br>
+ `Palindrome program.
+  Eg. If user has entered word ror,dod, kniink etc then  it will say yes otherwise No`

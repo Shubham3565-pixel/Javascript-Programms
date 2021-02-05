@@ -11,3 +11,9 @@
 * # Question 3: #<br>
  `Palindrome program.
   Eg. If user has entered word ror,dod, kniink etc then  it will say yes otherwise No.`
+
+* # Question 4: #<br>
+ `Check whether a given number is prime or not.`
+
+* # Question 5: #<br>
+ `Odd even program.`

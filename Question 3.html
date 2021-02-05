@@ -1,6 +1,6 @@
 <!--
-Reverse a given number .
-Eg. If user has entered Number 1236 it should print 6321.
+Palindrome program.
+Eg. If user has entered word ror,dod, kniink etc then  it will say yes otherwise No
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -12,15 +12,28 @@ Eg. If user has entered Number 1236 it should print 6321.
 </head>
 <body>
     <script>
-    var n1=prompt("Enter A Number:");
-    var reverse=0,r;
-    while(n1!=0){
-    r=n1%10;
-    reverse=reverse*10+r;
-    n1/=10;
-    n1=parseInt(n1);
+    var st=prompt("Enter a string:");
+    var k=st.length-1,temp,flag=0;
+    for(i=0;i<parseInt(st.length/2);i++)
+    {
+        if(st.charAt(i)==st.charAt(k--))
+            {
+                flag=0;
+            }
+        else
+            {
+                flag=1;
+                break;
+            }
     }
-    document.write(reverse);
+    if(flag==1)
+        {
+            document.write("no")
+        }
+    else
+        {
+            document.write("yes")
+        }
     </script>
 </body>
 </html>
